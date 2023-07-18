@@ -7,7 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeli ne
 
 # Load dataset
-df = pd.read_csv('KondisiSuhuUdaraKet.csv', delimiter=',')
+df = pd.read_csv('KondisiSuhuUda raKet.csv', delimiter=',')
 
 # Pisahkan atribut dan target
 x = df.drop(columns='keterangan')
