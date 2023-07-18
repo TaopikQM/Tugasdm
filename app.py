@@ -4,10 +4,10 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from jcopml.pipeline import num_pipe
 from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeli ne
+from sklearn.pipeline import Pipeline
 
 # Load dataset
-df = pd.read_csv('KondisiSuhuUda raKet.csv', delimiter=',')
+df = pd.read_csv('KondisiSuhuUdaraKet.csv', delimiter=',')
 
 # Pisahkan atribut dan target
 x = df.drop(columns='keterangan')
