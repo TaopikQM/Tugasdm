@@ -4,7 +4,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from jcopml.pipeline import num_pipe
 from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import Pipeli ne
 
 # Load dataset
 df = pd.read_csv('KondisiSuhuUdaraKet.csv', delimiter=',')
